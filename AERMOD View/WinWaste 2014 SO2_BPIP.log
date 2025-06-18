@@ -1,0 +1,55 @@
+  
+ READING INPUT DATA FROM FILE.
+  
+  
+ END OF READING INPUT DATA FROM FILE.
+  
+  
+ CALCULATING GEP VALUES.
+  
+   Calculating single tier GEP values.
+   Looking for and calculating any group of tiers GEP values
+     for a wind flow starting at 0.25 degrees.
+      Wind flow passing  10 degree direction.
+      Wind flow passing  20 degree direction.
+      Wind flow passing  30 degree direction.
+      Wind flow passing  40 degree direction.
+      Wind flow passing  50 degree direction.
+      Wind flow passing  60 degree direction.
+      Wind flow passing  70 degree direction.
+      Wind flow passing  80 degree direction.
+      Wind flow passing  90 degree direction.
+      Wind flow passing 100 degree direction.
+      Wind flow passing 110 degree direction.
+      Wind flow passing 120 degree direction.
+      Wind flow passing 130 degree direction.
+      Wind flow passing 140 degree direction.
+      Wind flow passing 150 degree direction.
+      Wind flow passing 160 degree direction.
+      Wind flow passing 170 degree direction.
+      Wind flow passing 180 degree direction.
+      Wind flow passing 190 degree direction.
+      Wind flow passing 200 degree direction.
+      Wind flow passing 210 degree direction.
+      Wind flow passing 220 degree direction.
+      Wind flow passing 230 degree direction.
+      Wind flow passing 240 degree direction.
+      Wind flow passing 250 degree direction.
+      Wind flow passing 260 degree direction.
+      Wind flow passing 270 degree direction.
+      Wind flow passing 280 degree direction.
+      Wind flow passing 290 degree direction.
+      Wind flow passing 300 degree direction.
+      Wind flow passing 310 degree direction.
+      Wind flow passing 320 degree direction.
+      Wind flow passing 330 degree direction.
+      Wind flow passing 340 degree direction.
+      Wind flow passing 350 degree direction.
+      Wind flow passing 360 degree direction.
+  
+ CALCULATING BUILDING DOWNWASH INPUT VALUES.
+  
+   Calculating single tier downwash values.
+  
+ END OF BPIP RUN.
+  
