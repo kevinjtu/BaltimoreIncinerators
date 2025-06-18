@@ -1,0 +1,164 @@
+** AERSURFACE Log File, Version 24142                             06/05/25 **
+**                                                                22:44:09 **
+
+
+ *************************** 
+
+ TIFF File Opened: ..\NLCD2023_LC_N39W075.tif
+
+ Data Type: NLCD  2023
+
+ Attempting to read TIFF file header: ..\NLCD2023_LC_N39W075.tif
+
+ Byte order: Little Endian 
+ IFD Offset (bytes):              8
+
+ Attempting to read TIFF tags: ..\NLCD2023_LC_N39W075.tif
+
+ Data Columns:   10875
+ Data Rows:      12309
+
+ WARNING: TIFF tag   274 (Orientation) was not found - default value used: NLCD
+          Orientation = 1; row-major with (0,0) = NW corner
+
+ Spatial Res. X:    30.00000000 (meters)
+ Spatial Res. Y:    30.00000000 (meters)
+ TIFF Data Organization: Strips
+ Model Type:  Projected
+ GT Raster Type = Pixel Is Area
+ Model Tie Point (NW corner) adjusted to midpoint of pixel.
+      X Tie Point:      1466460.00 (meters)
+      Y Tie Point:      2295510.00 (meters)
+
+ Horizontal Datum: WGS84
+
+ ***************************
+
+ Getting grid information for NLCD: ..\NLCD2023_LC_N39W075.tif
+ Based on the following input coordinates, converted if needed to LATLON/NAD83: 
+    Latitude:     39.170000
+    Longitude:   -76.680000
+
+ The study center is located at
+    Albers projection X-coordinate:   1642450.
+    Albers projection Y-coordinate:   1961494.
+    Row in data file:      11135
+    Column in data file:    5867
+
+ Rotation of Albers grid to true North (deg):  -11.64808
+
+***************************
+
+ Land Cover Counts: Surface Roughness (Within 1000m Radius)
+
+                             SECTOR:        1       2       3       4       5       6       7       8       9      10      11      12
+Cat              Starting Direction:      0.0    30.0    60.0    90.0   120.0   150.0   180.0   210.0   240.0   270.0   300.0   330.0
+------------------------------------
+  0 Missing, Out-of-Bounds, or Unde:        0       0       0       0       0       0       0       0       0       0       0       0
+ 11                      Open Water:        0       0       0       0       0       0       0       0       0       0       0       0
+ 12              Perennial Ice/Snow:        0       0       0       0       0       0       0       0       0       0       0       0
+ 21           Developed, Open Space:      112      50      55     109     218      90      29       9      19      35      76      93
+ 22        Developed, Low Intensity:       73      50      80      84      29      15      22      26      26      56      38      46
+ 23     Developed, Medium Intensity:       59      92      79      68       8      19       0       4      20     105      88      75
+ 24       Developed, High Intensity:       45     102      78      26      14       1       0       0      14      84      89      51
+ 31    Barren Land (Rock/Sand/Clay):        0       0       0       0       0       0       8     111       0       0       0       0
+ 32            Unconsolidated Shore:        0       0       0       0       0       0       0       0       0       0       0       0
+ 41                Deciduous Forest:        0       0       0       7      11      52      64      92      49       1       0      13
+ 42                Evergreen Forest:        0       0       0       0       0      42      16      13      41       0       0       0
+ 43                    Mixed Forest:        0       0       0       1       6      48     143      33     121       2       0      12
+ 51                     Dwarf Scrub:        0       0       0       0       0       0       0       0       0       0       0       0
+ 52                     Shrub/Scrub:        0       0       0       0       0      10       4       0       0       0       0       0
+ 71           Grasslands/Herbaceous:        0       0       0       0       0       0       4       1       0       0       0       0
+ 72                Sedge/Herbaceous:        0       0       0       0       0       0       0       0       0       0       0       0
+ 73                         Lichens:        0       0       0       0       0       0       0       0       0       0       0       0
+ 74                            Moss:        0       0       0       0       0       0       0       0       0       0       0       0
+ 81                     Pasture/Hay:        0       0       0       0       0      15       0       0       0       0       0       0
+ 82                Cultivated Crops:        0       0       0       0       0       2       0       0       0       0       0       0
+ 90                  Woody Wetlands:        0       0       0       0       0       0       3       0       0       3       0       0
+ 91     Palustrine Forested Wetland:        0       0       0       0       0       0       0       0       0       0       0       0
+ 92  Palustrine Scrub/Shrub Wetland:        0       0       0       0       0       0       0       0       0       0       0       0
+ 93      Estuarine Forested Wetland:        0       0       0       0       0       0       0       0       0       0       0       0
+ 94   Estuarine Scrub/Shrub Wetland:        0       0       0       0       0       0       0       0       0       0       0       0
+ 95     Emergent Herbaceous Wetland:        0       0       0       0       0       0       0       0       0       0       0       0
+ 96 Palustrine Emergent Wetland (Pe:        0       0       0       0       0       0       0       0       0       0       0       0
+ 97      Estuarine Emergent Wetland:        0       0       0       0       0       0       0       0       0       0       0       0
+ 98          Palustrine Aquatic Bed:        0       0       0       0       0       0       0       0       0       0       0       0
+ 99           Estuarine Aquatic Bed:        0       0       0       0       0       0       0       0       0       0       0       0
+------------------------------------
+                              Total:      289     294     292     295     286     294     293     289     290     286     291     290
+
+ Land Cover Counts: Bowen Ratio and Albedo (10km X 10km Domain)
+
+  0 Missing, Out-of-Bounds, or Unde:        0
+ 11                      Open Water:       45
+ 12              Perennial Ice/Snow:        0
+ 21           Developed, Open Space:    18884
+ 22        Developed, Low Intensity:    33115
+ 23     Developed, Medium Intensity:    29521
+ 24       Developed, High Intensity:    11137
+ 31    Barren Land (Rock/Sand/Clay):      157
+ 32            Unconsolidated Shore:        0
+ 41                Deciduous Forest:    10370
+ 42                Evergreen Forest:     1109
+ 43                    Mixed Forest:     4029
+ 51                     Dwarf Scrub:        0
+ 52                     Shrub/Scrub:      141
+ 71           Grasslands/Herbaceous:       13
+ 72                Sedge/Herbaceous:        0
+ 73                         Lichens:        0
+ 74                            Moss:        0
+ 81                     Pasture/Hay:       58
+ 82                Cultivated Crops:       56
+ 90                  Woody Wetlands:     4907
+ 91     Palustrine Forested Wetland:        0
+ 92  Palustrine Scrub/Shrub Wetland:        0
+ 93      Estuarine Forested Wetland:        0
+ 94   Estuarine Scrub/Shrub Wetland:        0
+ 95     Emergent Herbaceous Wetland:       27
+ 96 Palustrine Emergent Wetland (Pe:        0
+ 97      Estuarine Emergent Wetland:        0
+ 98          Palustrine Aquatic Bed:        0
+ 99           Estuarine Aquatic Bed:        0
+------------------------------------
+                              Total:   113569
+
+** High Z0 (Non-Airport) Sector IDs: All
+
+ Roughness (m) by Month and Sector
+------------------------------------------------------------------------------------------------------------------------
+       Start                                                 Month
+Sector  Dir       1        2        3        4        5        6        7        8        9       10       11       12
+   1     0.0    0.116    0.116    0.138    0.138    0.138    0.155    0.155    0.155    0.138    0.138    0.138    0.116
+   2    30.0    0.232    0.232    0.255    0.255    0.255    0.270    0.270    0.270    0.255    0.255    0.255    0.232
+   3    60.0    0.212    0.212    0.235    0.235    0.235    0.250    0.250    0.250    0.235    0.235    0.235    0.212
+   4    90.0    0.078    0.078    0.102    0.102    0.102    0.119    0.119    0.119    0.103    0.103    0.103    0.078
+   5   120.0    0.052    0.052    0.075    0.075    0.075    0.096    0.096    0.096    0.079    0.079    0.079    0.052
+   6   150.0    0.252    0.252    0.349    0.349    0.349    0.451    0.451    0.451    0.420    0.420    0.420    0.252
+   7   180.0    0.496    0.496    0.677    0.677    0.677    0.820    0.820    0.820    0.802    0.802    0.802    0.496
+   8   210.0    0.295    0.295    0.377    0.377    0.377    0.433    0.433    0.433    0.428    0.428    0.428    0.295
+   9   240.0    0.387    0.387    0.498    0.498    0.498    0.582    0.582    0.582    0.558    0.558    0.558    0.387
+  10   270.0    0.241    0.241    0.262    0.262    0.262    0.274    0.274    0.274    0.262    0.262    0.262    0.241
+  11   300.0    0.192    0.192    0.214    0.214    0.214    0.229    0.229    0.229    0.214    0.214    0.214    0.192
+  12   330.0    0.169    0.169    0.196    0.196    0.196    0.214    0.214    0.214    0.197    0.197    0.197    0.169
+------------------------------------------------------------------------------------------------------------------------
+
+
+ Roughness Fetch (m) by Month and Sector
+------------------------------------------------------------------------------------------------------------------------
+       Start                                                 Month
+Sector  Dir       1        2        3        4        5        6        7        8        9       10       11       12
+   1     0.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+   2    30.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+   3    60.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+   4    90.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+   5   120.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+   6   150.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+   7   180.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+   8   210.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+   9   240.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+  10   270.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+  11   300.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+  12   330.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0   1000.0
+------------------------------------------------------------------------------------------------------------------------
+ 
+ Average Roughness Fetch (m) =   1000.0

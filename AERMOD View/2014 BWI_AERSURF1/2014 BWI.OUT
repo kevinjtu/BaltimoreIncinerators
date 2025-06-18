@@ -1,0 +1,69 @@
+** AERSURFACE Output File, Version 24142                          06/05/25 **
+**                                                                14:36:59 **
+
+CO STARTING
+
+   TITLEONE  2014 BWI.AMF AERSURFACE
+
+   OPTIONS   PRIMARY  ZORAD
+   DEBUGOPT  GRID
+   CENTERLL  39.170000  -76.680000  NAD83
+
+   DATAFILE  NLCD2014  "..\NLCD2014_LC_N39W075.tif"
+   DATAFILE  CNPY2014  "..\NLCD2014_CAN_N39W075.tif"
+   DATAFILE  MPRV2014  "..\NLCD2014_IMP_N39W075.tif"
+
+   ZORADIUS  1.00
+   CLIMATE   AVERAGE  NOSNOW  NONARID
+
+   FREQ_SECT ANNUAL  12  HIGHZ0
+   SECTOR    1    0   30
+   SECTOR    2   30   60
+   SECTOR    3   60   90
+   SECTOR    4   90  120
+   SECTOR    5  120  150
+   SECTOR    6  150  180
+   SECTOR    7  180  210
+   SECTOR    8  210  240
+   SECTOR    9  240  270
+   SECTOR   10  270  300
+   SECTOR   11  300  330
+   SECTOR   12  330    0
+
+   RUNORNOT RUN
+
+CO FINISHED
+
+OU STARTING
+
+   SFCCHAR  "2014 BWI_sfc.TXT"
+
+   NLCDGRID landcover_debug.txt
+   MPRVGRID impervious_debug.txt
+   CNPYGRID canopy_debug.txt
+
+OU FINISHED
+
+**********************************************
+*** AERSURFACE SETUP Finished Successfully ***
+**********************************************
+
+ ********* Errors(E)/Warnings(W) ************
+
+ PW      --- Pathway (if during Setup)       
+ Code    --- Error Type + Error Code         
+ L#      --- Line # (if during Setup)        
+ ModNam  --- Module/Procedure                
+ Message --- Hints For The Possible Solution 
+ ********************************************
+
+PW CODE   L#  ModNam          MESSAGE                                            HINT
+-- ---- ----- --------------- -------------------------------------------------- --------------------
+  
+CO W297     9 DATAFILE        Check NLCD year based on years of data available   NLCD2014            
+CO W297    10 DATAFILE        Check NLCD year based on years of data available   CNPY2014            
+CO W297    11 DATAFILE        Check NLCD year based on years of data available   MPRV2014            
+
+***************************************************
+*** AERSURFACE Processing Finished Successfully ***
+***************************************************
